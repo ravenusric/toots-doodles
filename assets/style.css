@@ -19,11 +19,24 @@ img {
 h1, h2, h3 {
   margin: 0;
   padding: 1em 0;
+  font-family: 'Bungee Inline', cursive;
+  color: whitesmoke;
+  text-shadow: 2px 2px 5px dodgerblue;
 }
 
 p {
   margin: 0;
   padding: 1em 0;
+  font-family: 'Corben', cursive;
+}
+
+.puppy {
+  background-color: rgba(175, 207, 238, 0.33);
+  margin: 0;
+  padding: 1em 0;
+  font-family: 'Corben', cursive;
+  color: seashell;
+  text-shadow: 2px 2px 5px dodgerblue;
 }
 
 .btn {
@@ -59,6 +72,10 @@ p {
   opacity: 0.4;
 }
 
+.card-title {
+  font-family: 'Bungee Inline', cursive;
+}
+
 #showcase h1 {
   padding-top: 100px;
   padding-bottom: 0;
@@ -70,7 +87,10 @@ p {
 }
 
 #section-a {
-  background: #eaeaea;
+  background: #eaeaea url("../assets/images/triangles.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #333;
   padding-bottom: 2em;
 }
@@ -87,7 +107,10 @@ p {
 
 #section-b li {
   margin-bottom: 1em;
-  background: #fff;
+  background: #fff url("../assets/images/triangles.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #333;
 }
 
@@ -96,7 +119,10 @@ p {
 }
 
 #section-c {
-  background: #fff;
+  background: #fff url("../assets/images/family.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #333;
   padding: 2em;
 }
