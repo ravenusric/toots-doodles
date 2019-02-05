@@ -3,7 +3,7 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background: #333;
+  background: rgb(253, 253, 253);
   color: antiquewhite;
   font-size: 1.1em;
   line-height: 1.5;
@@ -47,6 +47,8 @@ p {
   padding: 1em 2em;
   border: 1px solid #667;
   margin: .5em 0;
+  border-radius: 40px;
+
 }
 
 .btn:hover {
@@ -58,10 +60,12 @@ p {
   min-height: 450px;
   color: whitesmoke;
   text-align: center;
+  background-color: #ff00b333;
+
 }
 
 #showcase .bg-image {
-  position: absolute;
+  position: fixed;
   background: #333 url("../assets/images/white.jpeg");
   background-position: center;
   background-repeat: no-repeat;
@@ -87,7 +91,7 @@ p {
 }
 
 #section-a {
-  background: #eaeaea url("../assets/images/triangles.jpeg");
+  background: rgba(97, 236, 225, 0.658);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -107,7 +111,7 @@ p {
 
 #section-b li {
   margin-bottom: 1em;
-  background: #fff url("../assets/images/triangles.jpeg");
+  background: rgba(216, 112, 147, 0.61);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -119,7 +123,7 @@ p {
 }
 
 #section-c {
-  background: #fff url("../assets/images/family.jpg");
+  background: url("../assets/images/family.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -130,10 +134,11 @@ p {
 #section-d .box {
   padding: 2em;
   color: #fff;
+  background-color: #06cff970;
 }
 
 #section-d .box:first-child {
-  background: rgb(56, 59, 250);
+  background: rgba(56, 59, 250, 0.466);
 
 }
 
@@ -205,7 +210,6 @@ p {
   }
 
   #section-a .content-text {
-      columns: 2;
       column-gap: 2em;
   }
 
